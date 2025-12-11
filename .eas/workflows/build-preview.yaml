@@ -1,0 +1,18 @@
+name: Build Preview on Main on push
+
+on:
+  # Trigger on pushes to main branch
+  push:
+    branches: [main]
+
+jobs:
+  build_ios_simulator:
+    type: build
+    params:
+      platform: ios # required
+      profile: preview-simulator
+  build_android:
+    type: build
+    params:
+      platform: android # required
+      profile: preview

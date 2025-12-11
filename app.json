@@ -43,6 +43,19 @@
     "experiments": {
       "typedRoutes": true,
       "reactCompiler": true
+    },
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "b290708d-d0d1-4c5b-b464-44f0bca8fbdc"
+      }
+    },
+    "owner": "bf-2025-company-a",
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+    "updates": {
+      "url": "https://staging-u.expo.dev/b290708d-d0d1-4c5b-b464-44f0bca8fbdc"
     }
   }
 }
